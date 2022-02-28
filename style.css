@@ -1,0 +1,210 @@
+/* Helper Styles: Do not Delete */
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+}
+
+/* Put your CSS Styles Below this Line */
+
+h1 {
+	font-family: 'Caveat', cursive;
+}
+
+h2 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+p {
+	font-family: 'Caveat', cursive;
+}
+
+
+
+.logo {
+	width: 150px;
+	/*justify-content: flex-start;*/
+}
+
+header {
+	display: flex;
+	background-color: #98996D;
+	padding: 2%;
+	border: 10px solid #545454;
+	align-items: center;
+
+}
+header nav {
+	text-align: center;
+	width:  calc(100% - 150px);
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	text-align: center;
+	margin:  0;
+}
+
+li {
+	margin: 55px;
+}
+
+footer {
+	display: flex;
+	background-color: #98996D;
+	padding: 2%;
+	border: 10px solid #545454;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.wordsunder {
+	text-align: center;
+}
+
+/*Section Class Intro*/
+.intro {
+	display: flex;
+	justify-content: space-between;
+}
+
+.vannpicture {
+	width: 60%;
+}
+
+.vanpicture img {
+	width:  100%;
+}
+
+.socialapps {
+	width:  30%;
+	background-color: #98996D;
+	border: 10px solid #545454;
+	text-align: center;
+	align-items: stretch;
+	padding-top: 150px;
+
+}
+
+.socialapps img {
+	justify-content: space-between;
+	flex-direction: column;
+	
+}
+
+.topinfo {
+	text-align: center;
+}
+
+.midinfo {
+	text-align: center;
+	flex-direction: column;
+	font-size: 25px;
+}
+
+.nearbottominfo {
+	text-align: center;
+	font-size: 25px;
+}
+
+.bottomleftinfo {
+
+}
+
+.bottomrightinfo {
+	justify-content: flex-end;
+}
+
+.bottomrightinfo img {
+	width: 200px;
+	height: 200px;
+}
+
+.mainmenu {
+	text-align: center;
+}
+.coffees{
+	text-align: center;
+}
+.bites{
+	text-align: center;
+}
+
+.bites img {
+	width: 200px;
+	height: 250px;
+	align-items: center;
+	border: 10px solid #545454;
+}
+
+.coffees img {
+	width: 200px;
+	height: 250px;
+	align-items: center;
+	border: 10px solid #545454;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #545454;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
